@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>More Gizmos</name>
+	<author>UntouchedWagons</author>
+	<url></url>
+	<supportedVersions>
+        <li>1.5</li>
+	</supportedVersions>
+	<packageId>UntouchedWagons.MoreGizmos</packageId>
+	<description>
+	Adds more useful gizmos to buildings. Stools, Chairs and Arm Chairs have been added to vanilla tables and production benches. The hopper has been added to the Nutrient Paste Dispenser. Deep drills have been added to the Ground Penetrating Scanner and vice versa.
+	</description>
+</ModMetaData>

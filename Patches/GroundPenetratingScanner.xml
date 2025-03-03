@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="GroundPenetratingScanner"]/building/relatedBuildCommands</xpath>
+
+        <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/ThingDef[defName="GroundPenetratingScanner"]/building</xpath>
+            <value>
+                <relatedBuildCommands />
+            </value>
+        </nomatch>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="GroundPenetratingScanner"]/building/relatedBuildCommands</xpath>
+        <value>
+            <li>DeepDrill</li>
+            <li>Stool</li>
+            <li>DiningChair</li>
+            <li>Armchair</li>
+        </value>
+    </Operation>
+</Patch>

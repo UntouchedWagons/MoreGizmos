@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
     <Operation Class="PatchOperationConditional">
-        <xpath>/Defs/ThingDef[defName="TableButcher"]/building</xpath>
+        <xpath>/Defs/ThingDef[@Name="TableBase"]/building</xpath>
 
         <nomatch Class="PatchOperationAdd">
-            <xpath>/Defs/ThingDef[defName="TableButcher"]</xpath>
+            <xpath>/Defs/ThingDef[@Name="TableBase"]</xpath>
             <value>
                 <building />
             </value>
         </nomatch>
     </Operation>
     <Operation Class="PatchOperationConditional">
-        <xpath>/Defs/ThingDef[defName="TableButcher"]/building/relatedBuildCommands</xpath>
+        <xpath>/Defs/ThingDef[@Name="TableBase"]/building/relatedBuildCommands</xpath>
 
         <nomatch Class="PatchOperationAdd">
-            <xpath>/Defs/ThingDef[defName="TableButcher"]/building</xpath>
+            <xpath>/Defs/ThingDef[@Name="TableBase"]/building</xpath>
             <value>
                 <relatedBuildCommands />
             </value>
         </nomatch>
     </Operation>
     <Operation Class="PatchOperationAdd">
-        <xpath>/Defs/ThingDef[defName="TableButcher"]/building/relatedBuildCommands</xpath>
+        <xpath>/Defs/ThingDef[@Name="TableBase"]/building/relatedBuildCommands</xpath>
         <value>
             <li>Stool</li>
             <li>DiningChair</li>

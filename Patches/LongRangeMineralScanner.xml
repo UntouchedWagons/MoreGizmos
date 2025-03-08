@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
     <Operation Class="PatchOperationConditional">
-        <xpath>/Defs/ThingDef[defName="Table2x4c"]/building/relatedBuildCommands</xpath>
+        <xpath>/Defs/ThingDef[defName="LongRangeMineralScanner"]/building/relatedBuildCommands</xpath>
 
         <nomatch Class="PatchOperationAdd">
-            <xpath>/Defs/ThingDef[defName="Table2x4c"]/building</xpath>
+            <xpath>/Defs/ThingDef[defName="LongRangeMineralScanner"]/building</xpath>
             <value>
                 <relatedBuildCommands />
             </value>
         </nomatch>
     </Operation>
     <Operation Class="PatchOperationAdd">
-        <xpath>/Defs/ThingDef[defName="Table2x4c"]/building/relatedBuildCommands</xpath>
+        <xpath>/Defs/ThingDef[defName="LongRangeMineralScanner"]/building/relatedBuildCommands</xpath>
         <value>
             <li>Stool</li>
             <li>DiningChair</li>
